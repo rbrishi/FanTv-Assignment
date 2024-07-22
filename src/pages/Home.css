@@ -1,0 +1,141 @@
+.frame-child {
+  width: 1440px;
+  height: 1348px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.home-inner,
+.rectangle-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  align-items: center;
+  padding: 100px var(--padding-xl);
+  gap: 100.1px;
+}
+.home-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 166px;
+}
+.the-transition-cdn-dcdn {
+  margin: 0;
+  width: 405px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 39px;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(90deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.transition-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fancloud-pioneers-a {
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 19.2px;
+  display: inline-block;
+}
+.transition-header-parent {
+  width: 793px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.home,
+.transition-container {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.transition-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-lightgray);
+  font-family: var(--font-nohemi);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 256px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .home-inner {
+    padding-bottom: 108px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .the-transition-cdn-dcdn {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    gap: 50px;
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .home-inner {
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent {
+    gap: 25px;
+  }
+  .the-transition-cdn-dcdn {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .transition-header-parent {
+    gap: var(--gap-2xl);
+  }
+}

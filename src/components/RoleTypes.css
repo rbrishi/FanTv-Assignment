@@ -1,0 +1,113 @@
+.orchestrators {
+  margin: 0;
+  width: 218px;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 67%;
+}
+.orchestrators-will-be {
+  position: absolute;
+  top: 0;
+  left: 121px;
+  letter-spacing: 0.02em;
+  line-height: 19.2px;
+  display: inline-block;
+  width: 336px;
+  z-index: 1;
+}
+.pattern-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.pattern-elements-icon {
+  position: absolute;
+  top: 31px;
+  left: 341.3px;
+  border-radius: var(--br-xs);
+  width: 122.2px;
+  height: 53.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.pattern-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.pattern-container-wrapper {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 571px;
+  height: 559px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orchestrators-will-be-responsi-parent {
+  margin-left: -121px;
+  width: 571px;
+  height: 629px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 175%;
+  font-size: var(--font-size-base);
+}
+.role-types {
+  height: 256px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-violet);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-13xl) var(--padding-173xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nohemi);
+}
+@media screen and (max-width: 1050px) {
+  .orchestrators {
+    font-size: var(--font-size-7xl);
+  }
+  .role-types {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-106xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .orchestrators {
+    font-size: var(--font-size-lgi);
+  }
+  .role-types {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
